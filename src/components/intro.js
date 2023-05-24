@@ -161,9 +161,8 @@ function Intro() {
         </div>
       </div>
 
-
-
-    </>
+      <br /><br /><br />
+   </>
 
 
 
