@@ -1,26 +1,123 @@
+/* Navbar.css */
+.logo-image {
+  width: 200px; 
+  height: 200px;
+}
+
+.bg-black {
+  background: #000;
+}
+
+.skill-block {
+  width: 30%;
+  position: relative;
+  color: white; /* Default text color, in case the specific one is not set */
+}
+
+.skill-block.mongo {
+  background: linear-gradient(45deg, #5a3e35, #3B2925);
+  color: #55aa4e;
+}
+
+.skill-block.express {
+  background: linear-gradient(45deg, #373737, #1C1C1C);
+  color: #ffffff;
+}
+
+.skill-block.react {
+  background: linear-gradient(45deg, #235e8b, #163B5E);
+  color: #60d7f6;
+}
+
+.skill-block.node {
+  background: linear-gradient(45deg, #75b242, #4E7B30);
+  color: #ffffff;
+}
+
+@media (min-width: 991px) and (max-width:1600px) {
+  .skill-block {
+    padding: 32px !important;
+  }
+}
+
+@media (min-width: 1600px) {
+  .skill-block {
+    padding: 56px !important;
+  }
+}
+
 body {
+  background-color: #ffffff;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.profile-img {
+  object-fit: cover;
+  width: 95%;
+  height: 95%;
+  padding: 4px;
+  background: #000;
+  box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.profile-section {
+  background: linear-gradient(45deg, #212529, #333333, #000000) !important;
+  border: 1px solid black;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-size: 14px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #e2e8f0;
+  padding: 20px;
 }
 
-.navbar {
-  background-color: #1F2130;
+.breadcrumb {
+  background-color: #c5cee4;
 }
 
-.navbar a {
-  color: #f3f0f0;
+.breadcrumb a {
+  text-decoration: none;
 }
 
-.navbar a:hover {
-  color: #CD2B4B;
+.container {
+  max-width: 1000px;
+  padding: 0;
 }
+
+p {
+  margin: 0;
+}
+
+.d-flex a {
+  text-decoration: none;
+  color: #686868;
+}
+
+.fab.fa-github {
+  color: #61dbfb; /* React logo color */
+}
+
+.fab.fa-instagram {
+  color: #E1306C;
+}
+
+.fab.fa-facebook {
+  color: #5999ec;
+}
+
+
+
 
