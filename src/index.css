@@ -81,16 +81,7 @@ body {
 
 body {
   background-color: #e2e8f0;
-  padding: 20px;
-}
-
-.breadcrumb {
-  background-color: #c5cee4;
-}
-
-.breadcrumb a {
-  text-decoration: none;
-}
+  }
 
 .container {
   max-width: 1000px;
@@ -106,17 +97,6 @@ p {
   color: #686868;
 }
 
-.fab.fa-github {
-  color: #61dbfb; /* React logo color */
-}
-
-.fab.fa-instagram {
-  color: #E1306C;
-}
-
-.fab.fa-facebook {
-  color: #5999ec;
-}
 
 
 
